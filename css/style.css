@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background:linear-gradient(to bottom right,white,rgb(165, 196, 255));
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+.container{
+    height: 60vh;
+    width: 35vw;
+    border-radius: 35px;
+    margin:12% auto;
+    background-color:#f5f5f5 ;
+    padding-top: 1px;
+}
+h1{
+    text-align: center;
+    color: #121145;
+}
+#amount{
+    width: 30vw;
+    height: 30px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(238, 215, 197);
+    text-align: center;
+    margin-top: 6px;
+    margin:auto 22px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown1{
+    height:40px;
+    width: 150px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown2{
+    height:40px;
+    width: 150px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+select{
+    height: 25px;
+    width: 65px;
+    background-color:  rgb(238, 215, 197);
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+select:hover{
+    cursor: pointer;
+}
+option{
+    text-align: center;
+}
+img{
+    height: 30px;
+    margin-right: 8px;
+}
+p{
+    text-align: center;
+}
+button{
+    margin-left:110px ;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    height: 30px;
+    width: 140px;
+    border-radius: 12px;
+}
+button:hover{
+    background-color:gray;
+    cursor: pointer;
+}

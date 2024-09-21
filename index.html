@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/5b28259bf4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form action="#" method="get">
+            <input type="number" id="amount" placeholder="Enter Amount"><br>
+            <br><br>
+        <div class="con">
+                
+            <div class="dropdown2">
+                <img src="https://flagsapi.com/US/flat/64.png" id="fromimg">
+                <select  id="from" name="from">
+                </select>
+            </div> 
+                  
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="dropdown1">
+                
+                <img src="https://flagsapi.com/IN/flat/64.png" id="toimg">
+                <select  id="to" name="to">
+                </select>
+            </div>  
+        </div>    
+        <br>
+                <p id="rates"></p>
+            <button type="submit">Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="js/countrycodes.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
